@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50AC908D1B0A8FB600B8D83E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AC908C1B0A8FB600B8D83E /* main.m */; };
+		50AC90901B0A8FB600B8D83E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AC908F1B0A8FB600B8D83E /* AppDelegate.m */; };
+		50AC90931B0A8FB600B8D83E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AC90921B0A8FB600B8D83E /* ViewController.m */; };
+		50AC90961B0A8FB600B8D83E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50AC90941B0A8FB600B8D83E /* Main.storyboard */; };
+		50AC90981B0A8FB600B8D83E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50AC90971B0A8FB600B8D83E /* Images.xcassets */; };
+		50AC909B1B0A8FB600B8D83E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50AC90991B0A8FB600B8D83E /* LaunchScreen.xib */; };
+		50AC90A71B0A8FB600B8D83E /* GoogleOAuthDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AC90A61B0A8FB600B8D83E /* GoogleOAuthDemoTests.m */; };
+		50AC90B21B0A92BD00B8D83E /* GoogleOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 50AC90B11B0A92BD00B8D83E /* GoogleOAuth.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50AC90A11B0A8FB600B8D83E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50AC907F1B0A8FB600B8D83E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50AC90861B0A8FB600B8D83E;
+			remoteInfo = GoogleOAuthDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50AC90871B0A8FB600B8D83E /* GoogleOAuthDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleOAuthDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AC908B1B0A8FB600B8D83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AC908C1B0A8FB600B8D83E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50AC908E1B0A8FB600B8D83E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50AC908F1B0A8FB600B8D83E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50AC90911B0A8FB600B8D83E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50AC90921B0A8FB600B8D83E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50AC90951B0A8FB600B8D83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50AC90971B0A8FB600B8D83E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		50AC909A1B0A8FB600B8D83E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		50AC90A01B0A8FB600B8D83E /* GoogleOAuthDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleOAuthDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50AC90A51B0A8FB600B8D83E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50AC90A61B0A8FB600B8D83E /* GoogleOAuthDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoogleOAuthDemoTests.m; sourceTree = "<group>"; };
+		50AC90B01B0A92BD00B8D83E /* GoogleOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoogleOAuth.h; sourceTree = "<group>"; };
+		50AC90B11B0A92BD00B8D83E /* GoogleOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoogleOAuth.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50AC90841B0A8FB600B8D83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AC909D1B0A8FB600B8D83E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50AC907E1B0A8FB600B8D83E = {
+			isa = PBXGroup;
+			children = (
+				50AC90891B0A8FB600B8D83E /* GoogleOAuthDemo */,
+				50AC90A31B0A8FB600B8D83E /* GoogleOAuthDemoTests */,
+				50AC90881B0A8FB600B8D83E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50AC90881B0A8FB600B8D83E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50AC90871B0A8FB600B8D83E /* GoogleOAuthDemo.app */,
+				50AC90A01B0A8FB600B8D83E /* GoogleOAuthDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50AC90891B0A8FB600B8D83E /* GoogleOAuthDemo */ = {
+			isa = PBXGroup;
+			children = (
+				50AC908E1B0A8FB600B8D83E /* AppDelegate.h */,
+				50AC908F1B0A8FB600B8D83E /* AppDelegate.m */,
+				50AC90B01B0A92BD00B8D83E /* GoogleOAuth.h */,
+				50AC90B11B0A92BD00B8D83E /* GoogleOAuth.m */,
+				50AC90911B0A8FB600B8D83E /* ViewController.h */,
+				50AC90921B0A8FB600B8D83E /* ViewController.m */,
+				50AC90941B0A8FB600B8D83E /* Main.storyboard */,
+				50AC90971B0A8FB600B8D83E /* Images.xcassets */,
+				50AC90991B0A8FB600B8D83E /* LaunchScreen.xib */,
+				50AC908A1B0A8FB600B8D83E /* Supporting Files */,
+			);
+			path = GoogleOAuthDemo;
+			sourceTree = "<group>";
+		};
+		50AC908A1B0A8FB600B8D83E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50AC908B1B0A8FB600B8D83E /* Info.plist */,
+				50AC908C1B0A8FB600B8D83E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		50AC90A31B0A8FB600B8D83E /* GoogleOAuthDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				50AC90A61B0A8FB600B8D83E /* GoogleOAuthDemoTests.m */,
+				50AC90A41B0A8FB600B8D83E /* Supporting Files */,
+			);
+			path = GoogleOAuthDemoTests;
+			sourceTree = "<group>";
+		};
+		50AC90A41B0A8FB600B8D83E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				50AC90A51B0A8FB600B8D83E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50AC90861B0A8FB600B8D83E /* GoogleOAuthDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AC90AA1B0A8FB600B8D83E /* Build configuration list for PBXNativeTarget "GoogleOAuthDemo" */;
+			buildPhases = (
+				50AC90831B0A8FB600B8D83E /* Sources */,
+				50AC90841B0A8FB600B8D83E /* Frameworks */,
+				50AC90851B0A8FB600B8D83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleOAuthDemo;
+			productName = GoogleOAuthDemo;
+			productReference = 50AC90871B0A8FB600B8D83E /* GoogleOAuthDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50AC909F1B0A8FB600B8D83E /* GoogleOAuthDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50AC90AD1B0A8FB600B8D83E /* Build configuration list for PBXNativeTarget "GoogleOAuthDemoTests" */;
+			buildPhases = (
+				50AC909C1B0A8FB600B8D83E /* Sources */,
+				50AC909D1B0A8FB600B8D83E /* Frameworks */,
+				50AC909E1B0A8FB600B8D83E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50AC90A21B0A8FB600B8D83E /* PBXTargetDependency */,
+			);
+			name = GoogleOAuthDemoTests;
+			productName = GoogleOAuthDemoTests;
+			productReference = 50AC90A01B0A8FB600B8D83E /* GoogleOAuthDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50AC907F1B0A8FB600B8D83E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qingjiezhao;
+				TargetAttributes = {
+					50AC90861B0A8FB600B8D83E = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					50AC909F1B0A8FB600B8D83E = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 50AC90861B0A8FB600B8D83E;
+					};
+				};
+			};
+			buildConfigurationList = 50AC90821B0A8FB600B8D83E /* Build configuration list for PBXProject "GoogleOAuthDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50AC907E1B0A8FB600B8D83E;
+			productRefGroup = 50AC90881B0A8FB600B8D83E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50AC90861B0A8FB600B8D83E /* GoogleOAuthDemo */,
+				50AC909F1B0A8FB600B8D83E /* GoogleOAuthDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50AC90851B0A8FB600B8D83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AC90961B0A8FB600B8D83E /* Main.storyboard in Resources */,
+				50AC909B1B0A8FB600B8D83E /* LaunchScreen.xib in Resources */,
+				50AC90981B0A8FB600B8D83E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AC909E1B0A8FB600B8D83E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50AC90831B0A8FB600B8D83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AC90931B0A8FB600B8D83E /* ViewController.m in Sources */,
+				50AC90901B0A8FB600B8D83E /* AppDelegate.m in Sources */,
+				50AC90B21B0A92BD00B8D83E /* GoogleOAuth.m in Sources */,
+				50AC908D1B0A8FB600B8D83E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50AC909C1B0A8FB600B8D83E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50AC90A71B0A8FB600B8D83E /* GoogleOAuthDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50AC90A21B0A8FB600B8D83E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50AC90861B0A8FB600B8D83E /* GoogleOAuthDemo */;
+			targetProxy = 50AC90A11B0A8FB600B8D83E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50AC90941B0A8FB600B8D83E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AC90951B0A8FB600B8D83E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50AC90991B0A8FB600B8D83E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50AC909A1B0A8FB600B8D83E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50AC90A81B0A8FB600B8D83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50AC90A91B0A8FB600B8D83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50AC90AB1B0A8FB600B8D83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleOAuthDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		50AC90AC1B0A8FB600B8D83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GoogleOAuthDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		50AC90AE1B0A8FB600B8D83E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleOAuthDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleOAuthDemo.app/GoogleOAuthDemo";
+			};
+			name = Debug;
+		};
+		50AC90AF1B0A8FB600B8D83E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GoogleOAuthDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleOAuthDemo.app/GoogleOAuthDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50AC90821B0A8FB600B8D83E /* Build configuration list for PBXProject "GoogleOAuthDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AC90A81B0A8FB600B8D83E /* Debug */,
+				50AC90A91B0A8FB600B8D83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50AC90AA1B0A8FB600B8D83E /* Build configuration list for PBXNativeTarget "GoogleOAuthDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AC90AB1B0A8FB600B8D83E /* Debug */,
+				50AC90AC1B0A8FB600B8D83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		50AC90AD1B0A8FB600B8D83E /* Build configuration list for PBXNativeTarget "GoogleOAuthDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50AC90AE1B0A8FB600B8D83E /* Debug */,
+				50AC90AF1B0A8FB600B8D83E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50AC907F1B0A8FB600B8D83E /* Project object */;
+}

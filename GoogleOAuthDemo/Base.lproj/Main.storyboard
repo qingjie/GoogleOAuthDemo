@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="644" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="fd7-L7-QDI">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="714" id="Opm-zE-XMC"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Opm-zE-XMC"/>
+                                    </mask>
+                                </variation>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="0.0" width="373" height="495"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="Opm-zE-XMC"/>
+                                    </mask>
+                                </variation>
+                            </tableView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="400" placeholderIntrinsicHeight="44" translatesAutoresizingMaskIntoConstraints="NO" id="tYG-BQ-tXh">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                <items>
+                                    <barButtonItem title="My Profile" id="SAV-Yj-Tbd">
+                                        <connections>
+                                            <action selector="showProfile:" destination="vXZ-lx-hvc" id="5hB-zh-CJH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="UPm-Jx-l55"/>
+                                    <barButtonItem title="Revoke access" id="1SH-3k-nR1">
+                                        <connections>
+                                            <action selector="revokeAccess:" destination="vXZ-lx-hvc" id="W2n-fo-Bsy"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="556" width="400" height="44"/>
+                                </variation>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="tYG-BQ-tXh" secondAttribute="bottom" id="3sK-L4-ErI"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="fd7-L7-QDI" secondAttribute="trailing" constant="-16" id="NCs-cb-EVf"/>
+                            <constraint firstItem="tYG-BQ-tXh" firstAttribute="top" secondItem="fd7-L7-QDI" secondAttribute="bottom" constant="42" id="O0u-DD-ZzR"/>
+                            <constraint firstItem="fd7-L7-QDI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="h4A-5e-Uha"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tYG-BQ-tXh" secondAttribute="trailing" constant="-16" id="hcP-Wm-lHg"/>
+                            <constraint firstItem="fd7-L7-QDI" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="itN-GT-FMQ"/>
+                            <constraint firstItem="tYG-BQ-tXh" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="p68-hg-qqR"/>
+                            <constraint firstItem="tYG-BQ-tXh" firstAttribute="top" secondItem="fd7-L7-QDI" secondAttribute="bottom" constant="112" id="wai-W5-HIC"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="fd7-L7-QDI"/>
+                                <exclude reference="tYG-BQ-tXh"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="NCs-cb-EVf"/>
+                                <exclude reference="h4A-5e-Uha"/>
+                                <exclude reference="itN-GT-FMQ"/>
+                                <exclude reference="O0u-DD-ZzR"/>
+                                <exclude reference="hcP-Wm-lHg"/>
+                                <exclude reference="p68-hg-qqR"/>
+                                <exclude reference="wai-W5-HIC"/>
+                                <exclude reference="3sK-L4-ErI"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="fd7-L7-QDI"/>
+                                <include reference="tYG-BQ-tXh"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="NCs-cb-EVf"/>
+                                <include reference="h4A-5e-Uha"/>
+                                <include reference="itN-GT-FMQ"/>
+                                <exclude reference="O0u-DD-ZzR"/>
+                                <include reference="hcP-Wm-lHg"/>
+                                <include reference="p68-hg-qqR"/>
+                                <exclude reference="wai-W5-HIC"/>
+                                <include reference="3sK-L4-ErI"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="table" destination="fd7-L7-QDI" id="Mvc-Nx-lsv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="216" y="339"/>
+        </scene>
+    </scenes>
+</document>
